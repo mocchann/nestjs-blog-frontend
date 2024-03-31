@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import { getAllPosts } from '../utils/api'
-import { PostType } from '../utils/Type';
-import Link from 'next/link';
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import { getAllPosts } from "../utils/api";
+import { PostType } from "../utils/Type";
+import Link from "next/link";
 
 type Props = {
   posts: PostType[];
@@ -41,5 +41,5 @@ export default function Home({ posts }: Props) {
         </ul>
       </div>
     </>
-  )
+  );
 }
