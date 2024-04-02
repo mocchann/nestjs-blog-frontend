@@ -13,3 +13,9 @@ export async function getPostById(id: string) {
   const data = await response.json();
   return data;
 }
+
+export async function updatePostById(id: string) {
+  const response = await fetch(`http://localhost:5050/update/${id}`, {
+    method: "POST",
+  });
+}
