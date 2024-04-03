@@ -27,3 +27,12 @@
   border-bottom: 1px solid #5189ba;
   padding-bottom: 1rem;
 }
+
+.editBtn {
+  text-decoration: none;
+  color: black;
+}
+
+.form {
+  width: 50%;
+}
